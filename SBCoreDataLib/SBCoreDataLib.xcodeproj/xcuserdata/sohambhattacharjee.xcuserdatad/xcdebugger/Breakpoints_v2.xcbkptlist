@@ -7,49 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4941C762-57E9-4FB2-B3A8-EF936361D198"
+            uuid = "F1D25A82-B28D-4691-B542-F9A05637B6B8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SBCoreDataLibExample/AppDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "applicationWillTerminate(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4941C762-57E9-4FB2-B3A8-EF936361D198 - c4fedbce102113d6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SBCoreDataLibExample.AppDelegate.application(_: __C.UIApplication, didFinishLaunchingWithOptions: Swift.Optional&lt;Swift.Dictionary&lt;__C.UIApplicationLaunchOptionsKey, Any&gt;&gt;) -&gt; Swift.Bool"
-                  moduleName = "SBCoreDataLibExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sohambhattacharjee/iCloud%20Drive%20(Archive)/Documents/Work/Personal%20Stuffs/SourceTree-Repo/SBCoreDataLib/SBCoreDataLib/SBCoreDataLibExample/AppDelegate.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "4941C762-57E9-4FB2-B3A8-EF936361D198 - 2e9f3602f782e293"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in SBCoreDataLibExample.AppDelegate.application(_: __C.UIApplication, didFinishLaunchingWithOptions: Swift.Optional&lt;Swift.Dictionary&lt;__C.UIApplicationLaunchOptionsKey, Any&gt;&gt;) -&gt; Swift.Bool"
-                  moduleName = "SBCoreDataLibExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sohambhattacharjee/iCloud%20Drive%20(Archive)/Documents/Work/Personal%20Stuffs/SourceTree-Repo/SBCoreDataLib/SBCoreDataLib/SBCoreDataLibExample/AppDelegate.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "19">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
