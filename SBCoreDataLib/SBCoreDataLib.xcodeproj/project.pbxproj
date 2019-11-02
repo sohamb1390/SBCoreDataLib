@@ -19,6 +19,24 @@
 		44FAA7C4236DD76F0086EE0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FAA7C2236DD76F0086EE0C /* LaunchScreen.storyboard */; };
 		44FAA7CF236DD76F0086EE0C /* SBCoreDataLibExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA7CE236DD76F0086EE0C /* SBCoreDataLibExampleTests.swift */; };
 		44FAA7DA236DD7700086EE0C /* SBCoreDataLibExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA7D9236DD7700086EE0C /* SBCoreDataLibExampleUITests.swift */; };
+		44FAA7EF236DD8C00086EE0C /* SBCoreDataModelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA7E6236DD8BF0086EE0C /* SBCoreDataModelable.swift */; };
+		44FAA7F0236DD8C00086EE0C /* SBCoreDataManagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA7E7236DD8BF0086EE0C /* SBCoreDataManagable.swift */; };
+		44FAA7F1236DD8C00086EE0C /* SBCoreDataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA7E8236DD8BF0086EE0C /* SBCoreDataAdapter.swift */; };
+		44FAA7F2236DD8C00086EE0C /* SBCoreDataControllerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA7E9236DD8BF0086EE0C /* SBCoreDataControllerConstants.swift */; };
+		44FAA7F3236DD8C00086EE0C /* SBCoreDataModelGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA7EA236DD8BF0086EE0C /* SBCoreDataModelGenerator.swift */; };
+		44FAA7F4236DD8C00086EE0C /* SBCoreDataManagedObjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA7EB236DD8BF0086EE0C /* SBCoreDataManagedObjectStore.swift */; };
+		44FAA7F5236DD8C00086EE0C /* SBCoreDataManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA7EC236DD8BF0086EE0C /* SBCoreDataManagedObject.swift */; };
+		44FAA7F6236DD8C00086EE0C /* SBCoreDataArrayToDataTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA7ED236DD8BF0086EE0C /* SBCoreDataArrayToDataTransformer.swift */; };
+		44FAA7F7236DD8C00086EE0C /* SBCoreDataDictionaryToDataTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA7EE236DD8BF0086EE0C /* SBCoreDataDictionaryToDataTransformer.swift */; };
+		44FAA7FB236DD9480086EE0C /* SBCoreDataControllerUpdateResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 44FAA7F9236DD9480086EE0C /* SBCoreDataControllerUpdateResponse.json */; };
+		44FAA7FC236DD9480086EE0C /* SBCoreDataControlerTestResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 44FAA7FA236DD9480086EE0C /* SBCoreDataControlerTestResponse.json */; };
+		44FAA7FF236DD9640086EE0C /* FileExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA7FE236DD9640086EE0C /* FileExtension.swift */; };
+		44FAA803236DD9C60086EE0C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA801236DD9C60086EE0C /* UserViewModel.swift */; };
+		44FAA804236DD9C60086EE0C /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA802236DD9C60086EE0C /* UserCellViewModel.swift */; };
+		44FAA808236DD9DB0086EE0C /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44FAA806236DD9DB0086EE0C /* UserCell.xib */; };
+		44FAA809236DD9DB0086EE0C /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA807236DD9DB0086EE0C /* UserCell.swift */; };
+		44FAA80D236DD9FD0086EE0C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA80B236DD9FC0086EE0C /* User.swift */; };
+		44FAA80E236DD9FD0086EE0C /* UserLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA80C236DD9FD0086EE0C /* UserLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +85,24 @@
 		44FAA7D5236DD7700086EE0C /* SBCoreDataLibExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBCoreDataLibExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FAA7D9236DD7700086EE0C /* SBCoreDataLibExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBCoreDataLibExampleUITests.swift; sourceTree = "<group>"; };
 		44FAA7DB236DD7700086EE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FAA7E6236DD8BF0086EE0C /* SBCoreDataModelable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCoreDataModelable.swift; sourceTree = "<group>"; };
+		44FAA7E7236DD8BF0086EE0C /* SBCoreDataManagable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCoreDataManagable.swift; sourceTree = "<group>"; };
+		44FAA7E8236DD8BF0086EE0C /* SBCoreDataAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCoreDataAdapter.swift; sourceTree = "<group>"; };
+		44FAA7E9236DD8BF0086EE0C /* SBCoreDataControllerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCoreDataControllerConstants.swift; sourceTree = "<group>"; };
+		44FAA7EA236DD8BF0086EE0C /* SBCoreDataModelGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCoreDataModelGenerator.swift; sourceTree = "<group>"; };
+		44FAA7EB236DD8BF0086EE0C /* SBCoreDataManagedObjectStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCoreDataManagedObjectStore.swift; sourceTree = "<group>"; };
+		44FAA7EC236DD8BF0086EE0C /* SBCoreDataManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCoreDataManagedObject.swift; sourceTree = "<group>"; };
+		44FAA7ED236DD8BF0086EE0C /* SBCoreDataArrayToDataTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCoreDataArrayToDataTransformer.swift; sourceTree = "<group>"; };
+		44FAA7EE236DD8BF0086EE0C /* SBCoreDataDictionaryToDataTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCoreDataDictionaryToDataTransformer.swift; sourceTree = "<group>"; };
+		44FAA7F9236DD9480086EE0C /* SBCoreDataControllerUpdateResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SBCoreDataControllerUpdateResponse.json; sourceTree = "<group>"; };
+		44FAA7FA236DD9480086EE0C /* SBCoreDataControlerTestResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SBCoreDataControlerTestResponse.json; sourceTree = "<group>"; };
+		44FAA7FE236DD9640086EE0C /* FileExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExtension.swift; sourceTree = "<group>"; };
+		44FAA801236DD9C60086EE0C /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		44FAA802236DD9C60086EE0C /* UserCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
+		44FAA806236DD9DB0086EE0C /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		44FAA807236DD9DB0086EE0C /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		44FAA80B236DD9FC0086EE0C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		44FAA80C236DD9FD0086EE0C /* UserLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +172,7 @@
 		44FAA796236DD7100086EE0C /* SBCoreDataLib */ = {
 			isa = PBXGroup;
 			children = (
+				44FAA7E5236DD8BF0086EE0C /* SBCoreDataController */,
 				44FAA797236DD7100086EE0C /* SBCoreDataLib.h */,
 				44FAA798236DD7100086EE0C /* Info.plist */,
 			);
@@ -154,6 +191,11 @@
 		44FAA7B3236DD76C0086EE0C /* SBCoreDataLibExample */ = {
 			isa = PBXGroup;
 			children = (
+				44FAA80A236DD9EF0086EE0C /* Model */,
+				44FAA805236DD9DB0086EE0C /* View */,
+				44FAA800236DD9C60086EE0C /* ViewModel */,
+				44FAA7FD236DD9560086EE0C /* Common */,
+				44FAA7F8236DD9480086EE0C /* Resource */,
 				44FAA7B4236DD76C0086EE0C /* AppDelegate.swift */,
 				44FAA7B6236DD76C0086EE0C /* SceneDelegate.swift */,
 				44FAA7B8236DD76C0086EE0C /* ViewController.swift */,
@@ -182,6 +224,66 @@
 				44FAA7DB236DD7700086EE0C /* Info.plist */,
 			);
 			path = SBCoreDataLibExampleUITests;
+			sourceTree = "<group>";
+		};
+		44FAA7E5236DD8BF0086EE0C /* SBCoreDataController */ = {
+			isa = PBXGroup;
+			children = (
+				44FAA7E6236DD8BF0086EE0C /* SBCoreDataModelable.swift */,
+				44FAA7E7236DD8BF0086EE0C /* SBCoreDataManagable.swift */,
+				44FAA7E8236DD8BF0086EE0C /* SBCoreDataAdapter.swift */,
+				44FAA7E9236DD8BF0086EE0C /* SBCoreDataControllerConstants.swift */,
+				44FAA7EA236DD8BF0086EE0C /* SBCoreDataModelGenerator.swift */,
+				44FAA7EB236DD8BF0086EE0C /* SBCoreDataManagedObjectStore.swift */,
+				44FAA7EC236DD8BF0086EE0C /* SBCoreDataManagedObject.swift */,
+				44FAA7ED236DD8BF0086EE0C /* SBCoreDataArrayToDataTransformer.swift */,
+				44FAA7EE236DD8BF0086EE0C /* SBCoreDataDictionaryToDataTransformer.swift */,
+			);
+			path = SBCoreDataController;
+			sourceTree = "<group>";
+		};
+		44FAA7F8236DD9480086EE0C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				44FAA7F9236DD9480086EE0C /* SBCoreDataControllerUpdateResponse.json */,
+				44FAA7FA236DD9480086EE0C /* SBCoreDataControlerTestResponse.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		44FAA7FD236DD9560086EE0C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				44FAA7FE236DD9640086EE0C /* FileExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		44FAA800236DD9C60086EE0C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				44FAA801236DD9C60086EE0C /* UserViewModel.swift */,
+				44FAA802236DD9C60086EE0C /* UserCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		44FAA805236DD9DB0086EE0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44FAA806236DD9DB0086EE0C /* UserCell.xib */,
+				44FAA807236DD9DB0086EE0C /* UserCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44FAA80A236DD9EF0086EE0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44FAA80B236DD9FC0086EE0C /* User.swift */,
+				44FAA80C236DD9FD0086EE0C /* UserLink.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +460,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				44FAA7C4236DD76F0086EE0C /* LaunchScreen.storyboard in Resources */,
+				44FAA7FC236DD9480086EE0C /* SBCoreDataControlerTestResponse.json in Resources */,
+				44FAA808236DD9DB0086EE0C /* UserCell.xib in Resources */,
+				44FAA7FB236DD9480086EE0C /* SBCoreDataControllerUpdateResponse.json in Resources */,
 				44FAA7C1236DD76F0086EE0C /* Assets.xcassets in Resources */,
 				44FAA7BC236DD76C0086EE0C /* Main.storyboard in Resources */,
 			);
@@ -384,6 +489,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44FAA7F6236DD8C00086EE0C /* SBCoreDataArrayToDataTransformer.swift in Sources */,
+				44FAA7F4236DD8C00086EE0C /* SBCoreDataManagedObjectStore.swift in Sources */,
+				44FAA7F3236DD8C00086EE0C /* SBCoreDataModelGenerator.swift in Sources */,
+				44FAA7F1236DD8C00086EE0C /* SBCoreDataAdapter.swift in Sources */,
+				44FAA7F0236DD8C00086EE0C /* SBCoreDataManagable.swift in Sources */,
+				44FAA7F7236DD8C00086EE0C /* SBCoreDataDictionaryToDataTransformer.swift in Sources */,
+				44FAA7EF236DD8C00086EE0C /* SBCoreDataModelable.swift in Sources */,
+				44FAA7F2236DD8C00086EE0C /* SBCoreDataControllerConstants.swift in Sources */,
+				44FAA7F5236DD8C00086EE0C /* SBCoreDataManagedObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +513,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44FAA80E236DD9FD0086EE0C /* UserLink.swift in Sources */,
+				44FAA809236DD9DB0086EE0C /* UserCell.swift in Sources */,
 				44FAA7BF236DD76C0086EE0C /* SBCoreDataLibExample.xcdatamodeld in Sources */,
+				44FAA803236DD9C60086EE0C /* UserViewModel.swift in Sources */,
+				44FAA804236DD9C60086EE0C /* UserCellViewModel.swift in Sources */,
+				44FAA7FF236DD9640086EE0C /* FileExtension.swift in Sources */,
+				44FAA80D236DD9FD0086EE0C /* User.swift in Sources */,
 				44FAA7B9236DD76C0086EE0C /* ViewController.swift in Sources */,
 				44FAA7B5236DD76C0086EE0C /* AppDelegate.swift in Sources */,
 				44FAA7B7236DD76C0086EE0C /* SceneDelegate.swift in Sources */,
@@ -633,6 +753,7 @@
 		44FAA7AC236DD7100086EE0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CD6F43NYAS;
 				INFOPLIST_FILE = SBCoreDataLibTests/Info.plist;
@@ -651,6 +772,7 @@
 		44FAA7AD236DD7100086EE0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CD6F43NYAS;
 				INFOPLIST_FILE = SBCoreDataLibTests/Info.plist;
